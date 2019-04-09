@@ -28,7 +28,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText11"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -37,13 +37,22 @@
 
 
     <EditText
-        android:id="@+id/editText13"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/prompt_password"
         android:inputType="textPassword"
         android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/prompt_confirm_password"
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/email_sign_in_button"
