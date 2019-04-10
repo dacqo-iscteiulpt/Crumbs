@@ -9,6 +9,7 @@
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
+    <string name="app_label">Crumbs</string>
     <string name="login_button">Login</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_name">Name</string>
@@ -25,5 +26,6 @@
         completions."
     </string>
     <string name="title_activity_register">Register</string>
-    <string name="register_text">Dont have an account? Register here</string>
+    <string name="register_text">Don\'t have an account? Register here</string>
+    <string name="search_hint">Search jobs and people</string>
 </resources>
