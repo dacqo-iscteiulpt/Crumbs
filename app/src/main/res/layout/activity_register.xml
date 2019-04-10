@@ -15,6 +15,7 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/prompt_name"
         android:inputType="textPersonName" />
@@ -23,6 +24,7 @@
         android:id="@+id/surname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/prompt_surname"
         android:inputType="textPersonName" />
@@ -31,6 +33,7 @@
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/prompt_email"
         android:inputType="textEmailAddress" />
@@ -40,6 +43,7 @@
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/prompt_password"
         android:inputType="textPassword"
@@ -49,9 +53,10 @@
         android:id="@+id/password2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/prompt_confirm_password"
+        android:hint="@string/prompt_password_confirm"
         android:inputType="textPassword" />
 
     <Button
